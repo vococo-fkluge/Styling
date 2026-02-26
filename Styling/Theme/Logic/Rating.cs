@@ -1,10 +1,10 @@
 ﻿using System;
 using Avalonia;
-using Avalonia.Controls;
+using Avalonia.Controls.Primitives;
 
 namespace Styling.Theme.Logic;
 
-public class Rating : ContentControl {
+public class Rating : TemplatedControl {
     protected override Type StyleKeyOverride => typeof(Rating);
 
     public static readonly StyledProperty<double> CircleSizeProperty = AvaloniaProperty.Register<Rating, double>(
