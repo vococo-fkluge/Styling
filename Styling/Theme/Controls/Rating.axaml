@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:logic="clr-namespace:Styling.Theme.Logic">
+    <ControlTheme x:Key="{x:Type logic:Rating}" TargetType="logic:Rating">
+        <Setter Property="CircleSize" Value="10"/>
+        <Setter Property="Template">
+            <ControlTemplate>
+                <StackPanel Orientation="Horizontal"
+                            Background="{TemplateBinding Background}">
+                    <Ellipse Width="{TemplateBinding CircleSize}"
+                             Height="{TemplateBinding CircleSize}"
+                             Fill="Red"/>
+                    <Ellipse Width="{TemplateBinding CircleSize}"
+                             Height="{TemplateBinding CircleSize}"
+                             Fill="Red"/>
+                    <Ellipse Width="{TemplateBinding CircleSize}"
+                             Height="{TemplateBinding CircleSize}"
+                             Fill="Red"/>
+                    <Ellipse Width="{TemplateBinding CircleSize}"
+                             Height="{TemplateBinding CircleSize}"
+                             Fill="Red"/>
+                    <Ellipse Width="{TemplateBinding CircleSize}"
+                             Height="{TemplateBinding CircleSize}"
+                             Fill="Red"/>
+                </StackPanel>
+            </ControlTemplate>
+        </Setter>
+    </ControlTheme>
+</ResourceDictionary>
