@@ -1,0 +1,11 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style Selector="TextBox">
+        <Setter Property="Background" Value="Red"/>
+        <Setter Property="Foreground" Value="Blue"/>
+    </Style>
+    
+    <Style Selector="TextBox.Secondary">
+        <Setter Property="Background" Value="Green"/>
+    </Style>
+</Styles>

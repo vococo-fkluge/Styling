@@ -1,0 +1,7 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Styling.Theme.Theme">
+    <FluentTheme/>
+    
+    <StyleInclude Source="avares://Styling/Theme/TextBox.axaml"/>
+</Styles>

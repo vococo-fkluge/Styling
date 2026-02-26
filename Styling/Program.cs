@@ -1,4 +1,5 @@
 ﻿using Avalonia;
+using ReactiveUI;
 using ReactiveUI.Avalonia;
 using System;
 
@@ -18,5 +19,5 @@ sealed class Program {
             .UsePlatformDetect()
             .WithInterFont()
             .LogToTrace()
-            .UseReactiveUI();
+            .UseReactiveUI(builder => builder.BuildApp());
 }
